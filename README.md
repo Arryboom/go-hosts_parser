@@ -2,9 +2,8 @@
 
 a simple hosts parser support cross-platform.
 
-[![Documentation](https://godoc.org/github.com/arryboom/go-hostsparser?status.svg)](https://godoc.org/github.com/arryboom/go-hostsparser)
-[![Build Status](https://travis-ci.org/arryboom/go-hostsparser.svg)](https://travis-ci.org/arryboom/go-hostsparser)
 [![Report Card](https://goreportcard.com/badge/github.com/arryboom/go-hostsparser)](https://goreportcard.com/report/arryboom/go-hostsparser)
+[![Documentation](https://godoc.org/github.com/arryboom/go-hostsparser?status.svg)](https://godoc.org/github.com/arryboom/go-hostsparser)
 
 ### The /etc/hosts parsing and resolver library for golang
 
