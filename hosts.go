@@ -42,7 +42,7 @@ func ParseHosts(hostsFileContent []byte, err error) (map[string]string, error) {
 func NameLookup(name string) (string, error) {
 	hostsMap, err := ParseHosts(ReadHostsFile())
 	if err != nil {
-		return "", err
+		return "NULL", err
 	}
 	return hostsMap[name], nil
 }

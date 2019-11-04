@@ -17,7 +17,7 @@ works in cases where the IP mapping exists in the hostsfile.
 
 ## Get it
 
-    go get -u https://github.com/arryboom/go-hostsparser
+    go get -u github.com/arryboom/go-hostsparser
 
 ## Usage
 
@@ -31,11 +31,11 @@ import (
 )
 
 func main() {
-    resx, err := NameLookup("example.com")
+    res, err := hostsparser.NameLookup("example.com")
     if err != nil {
         panic(err)
     }
-    fmt.Printf("%v maps example.com in the following files: %v", res, hostsfile.HostsPath)
+    fmt.Printf("%v maps example.com in the following files: %v", res, hostsparser.HostsPath)
 }
 ```
 
