@@ -1,10 +1,10 @@
-# Hosts_Parser
+# HostsParser
 
 a simple hosts parser support cross-platform.
 
-[![Documentation](https://godoc.org/github.com/arryboom/go-hosts_parser?status.svg)](https://godoc.org/github.com/arryboom/go-hosts_parser)
-[![Build Status](https://travis-ci.org/arryboom/go-hosts_parser.svg)](https://travis-ci.org/arryboom/go-hosts_parser)
-[![Report Card](https://goreportcard.com/badge/arryboom/go-hosts_parser)](https://goreportcard.com/report/arryboom/go-hosts_parser)
+[![Documentation](https://godoc.org/github.com/arryboom/go-hostsparser?status.svg)](https://godoc.org/github.com/arryboom/go-hostsparser)
+[![Build Status](https://travis-ci.org/arryboom/go-hostsparser.svg)](https://travis-ci.org/arryboom/go-hostsparser)
+[![Report Card](https://goreportcard.com/badge/arryboom/go-hostsparser)](https://goreportcard.com/report/arryboom/go-hostsparser)
 
 ### The /etc/hosts parsing and resolver library for golang
 
@@ -18,7 +18,7 @@ works in cases where the IP mapping exists in the hostsfile.
 
 ## Get it
 
-    go get -u https://github.com/arryboom/go-hosts_parser
+    go get -u https://github.com/arryboom/go-hostsparser
 
 ## Usage
 
@@ -28,7 +28,7 @@ package main
 import (
     "fmt"
 
-    "github.com/arryboom/go-hosts_parser"
+    "github.com/arryboom/go-hostsparser"
 )
 
 func main() {

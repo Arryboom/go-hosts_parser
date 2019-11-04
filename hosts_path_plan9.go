@@ -1,5 +1,5 @@
 // +build plan9
 
-package hosts_parser
+package hostsparser
 
 var HostsPath = `/lib/ndb/hosts`

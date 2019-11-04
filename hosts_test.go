@@ -1,9 +1,9 @@
-package hosts_parser_test
+package hostsparser_test
 
 import (
 	"testing"
 
-	"github.com/arryboom/go-hosts_parser"
+	"github.com/arryboom/go-hostsparser"
 )
 
 func TestHostsReverseLookup(t *testing.T) {

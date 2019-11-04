@@ -1,5 +1,5 @@
 // +build linux darwin
 
-package hosts_parser
+package hostsparser
 
 var HostsPath = `/etc/hosts`

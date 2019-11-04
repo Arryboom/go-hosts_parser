@@ -1,6 +1,6 @@
 // +build windows
 
-package hosts_parser
+package hostsparser
 
 import (
 	"os"

@@ -1,4 +1,4 @@
-package hosts_parser
+package hostsparser
 
 import (
 	"io/ioutil"
