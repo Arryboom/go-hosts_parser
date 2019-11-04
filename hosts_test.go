@@ -3,7 +3,7 @@ package hosts_parser_test
 import (
 	"testing"
 
-	"github.com//arryboom/go-hosts_parser"
+	"github.com/arryboom/go-hosts_parser"
 )
 
 func TestHostsReverseLookup(t *testing.T) {
