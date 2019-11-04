@@ -7,7 +7,7 @@ import (
 )
 
 func TestHostsReverseLookup(t *testing.T) {
-	res, err := hosts_parser.NameLookup("Example.com")
+	res, err := hostsparser.NameLookup("Example.com")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -18,12 +18,12 @@ func TestHostsReverseLookup(t *testing.T) {
 
 func TestParseHosts(t *testing.T) {
 	testCases := []struct {
-		hosts_parserContent string
+		hostsparserContent string
 		expectedEntries  map[string]int
 		forbiddenEntries []string
 	}{
 		{
-			hosts_parserContent: `##
+			hostsparserContent: `##
 # Host Database
 #
 # localhost is used to configure the loopback interface
@@ -58,7 +58,7 @@ garbage
 			},
 		},
 		{
-			hosts_parserContent: `;;
+			hostsparserContent: `;;
 ; Host Database
 ;
 ; localhost is used to configure the loopback interface
@@ -82,7 +82,7 @@ fe80::1%lo0	localhost
 	}
 
 	for i, testCase := range testCases {
-		res, err := hosts_parser.ParseHosts([]byte(testCase.hosts_parserContent), nil)
+		res, err := hostsparser.ParseHosts([]byte(testCase.hostsparserContent), nil)
 		if err != nil {
 			t.Fatalf("[i=%v] Error parsing hosts content: %s", i, err)
 		}
